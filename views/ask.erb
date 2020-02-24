@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Google Fonts -->
-    <!-- Swap out "Roboto" for the font(s) you want to use -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Swapped out Roboto for Noto Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
@@ -18,12 +18,24 @@
     <!-- Your own CSS -->
     <link rel="stylesheet" href="/styles.css">
 
-    <title>News</title>
+    <title>Enter location | Weather&News</title>
   </head>
-  <body>
+    
+	<body class="homepage">	
+		<div class="container w-50 mt-3">
+      <img src="logo.png" class="img-fluid">
+    </div>
 
     <div class="container mt-5">
-      <h1>News</h1>
+      <h1 class="center display-4">Enter a location</h1>
+      <p class="center lead">
+				Enter a location and you'll get the latest weather for that area. Oh yeah, and you'll also get the
+				US national news headlines. It really is that simple. It's the weather... and the news too!
+      </p>
+      <form class="text-center" action = "/weather_and_news">
+        <input name = "location">
+        <button type = "submit" class = "btn btn-primary">Submit</button>
+      </form>
     </div>
 
     <!-- Optional JavaScript -->
@@ -31,5 +43,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>

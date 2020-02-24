@@ -1,0 +1,36 @@
+/* customize page design */
+
+body {
+    font-family: 'Noto-Sans', sans-serif;
+    background-color: #222330;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.center {
+    text-align: center; 
+}
+
+.left {
+    text-align: left;
+}
+
+.homepage {
+    background-image: url("earth.jpg");
+    background-attachment: fixed;
+}
+
+/* override bootstrap configurations */
+
+.table  {
+    color: whitesmoke;
+    text-align: left;
+}
+
+.thead-color{
+    background-color: #646681;
+}
+
+.navbarbg {
+    background-color: #646681;
+}
